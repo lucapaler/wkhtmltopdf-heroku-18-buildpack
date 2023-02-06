@@ -40,6 +40,8 @@ echo "-----> Setting permissions"
 chmod +x $WKHTMLTOPDF_BINARIES/*
 
 echo "-----> Moving binaries to the right place"
+echo $BIN_PATH
+echo $LIB_PATH
 mv $WKHTMLTOPDF_BINARIES/* $BIN_PATH/
 
 echo "-----> Moving libs to the right place"
